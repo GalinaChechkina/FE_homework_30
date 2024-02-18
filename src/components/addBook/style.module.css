@@ -1,0 +1,41 @@
+.form_container{
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    color: rgb(30, 132, 172);
+    font-size: 30px;
+    font-style: italic;
+}
+
+.form{
+    margin-top: 20px;
+    display: flex;
+    justify-content: first baseline;
+    gap: 10px;
+}
+
+input{
+    color: rgb(30, 132, 172);
+    font-style: italic;
+    border-radius: 5px;
+    border: 1px solid skyblue; 
+    padding: 5px;   
+    font-size: 20px;
+}
+
+.input_num{
+    width: 100px;
+}
+
+.button_form{
+    border-radius: 5px;
+    border: 1px solid rgb(30, 132, 172); 
+    background-color: rgb(30, 132, 172);
+    padding: 5px;   
+    font-size: 20px;
+    font-style: italic;
+    color: aliceblue;
+}
